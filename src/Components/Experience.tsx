@@ -1,3 +1,13 @@
+declare global {
+  interface ImportMetaEnv {
+    readonly BASE_URL: string;
+  }
+
+  interface ImportMeta {
+    readonly env: ImportMetaEnv;
+  }
+}
+
 export default function Experience() {
   return (
     <section
@@ -29,7 +39,7 @@ export default function Experience() {
         className="mt-8 inline-flex items-center gap-4 rounded-xl border border-slate-700 p-4 hover:border-cyan-400 hover:bg-slate-800/40 hover:shadow-lg transition-all duration-300"
       >
         <img
-          src="/bufferbytes_technologies_logo.jpeg"
+          src={`${import.meta.env.BASE_URL}bufferbytes_technologies_logo.jpeg`}
           alt="BufferBytes Technology"
           className="w-14 h-14 rounded-lg object-contain"
         />
