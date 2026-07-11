@@ -18,7 +18,10 @@ export default function LeftPanel(){
                 <div className="mt-32 flex gap-6 text-2xl text-slate-400">
                     <div className=" hover:text-cyan-400 "><a href="https://www.linkedin.com/in/your-linkedin-username/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a></div>
                     <div className=" hover:text-cyan-400 "><a href="https://github.com/hibakeyath" target="_blank" rel="noopener noreferrer"><FaGithub /></a></div>
-                    <div className=" hover:text-cyan-400 "><a href="mailto:fahibakeyath@gmail.com"><MdEmail /></a></div></div>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=fahibakeyath@gmail.com" target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-cyan-400 transition-colors"><MdEmail /></a>
+                </div>
             
            
         </aside>
