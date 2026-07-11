@@ -16,7 +16,7 @@ export default function LeftPanel(){
                 </nav>
 
                 <div className="mt-32 flex gap-6 text-2xl text-slate-400">
-                    <div className=" hover:text-cyan-400 "><a href="https://www.linkedin.com/in/your-linkedin-username/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a></div>
+                    <div className=" hover:text-cyan-400 "><a href="www.linkedin.com/in/fathimahibakeyath" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a></div>
                     <div className=" hover:text-cyan-400 "><a href="https://github.com/hibakeyath" target="_blank" rel="noopener noreferrer"><FaGithub /></a></div>
                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=fahibakeyath@gmail.com" target="_blank"
                     rel="noopener noreferrer"
